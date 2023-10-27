@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "text": "How are you?",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-1",
+      "name": "Budi"
+    }
+  },
+  {
+    "id": 2,
+    "text": "I am good, good",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-2",
+      "name": "Lukas"
+    }
+  },
+  {
+    "id": 3,
+    "text": "What about you?",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-2",
+      "name": "Lukas"
+    }
+  },
+  {
+    "id": 4,
+    "text": "Good as well, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-1",
+      "name": "Budi"
+    }
+  },
+  {
+    "id": 5,
+    "text": "Lorem ipsum dolor sit amet",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-2",
+      "name": "Lukas"
+    }
+  },
+  {
+    "id": 6,
+    "text": "Lorem ipsum dolor sit amet",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-1",
+      "name": "Budi"
+    }
+  },
+  {
+    "id": 7,
+    "text": "Lorem ipsum",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-1",
+      "name": "Budi"
+    }
+  },
+  {
+    "id": 8,
+    "text": "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-2",
+      "name": "Lukas"
+    }
+  },
+  {
+    "id": 9,
+    "text": "Ut enim ad minim veniam",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-1",
+      "name": "Budi"
+    }
+  },
+  {
+    "id": 10,
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-2",
+      "name": "Lukas"
+    }
+  },
+  {
+    "id": 11,
+    "text": "Excepteur sint occaecat cupidatat non proident",
+    "createdAt": "2023-10-22:33:29.567Z",
+    "user": {
+      "id": "u-2",
+      "name": "Lukas"
+    }
+  }
+]
