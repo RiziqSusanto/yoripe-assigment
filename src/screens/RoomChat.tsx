@@ -16,7 +16,10 @@ import Message from '../components/Message';
 import InputBox from '../components/InputBox';
 import DropdownMenu from '../components/DropdownMenu';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import {RoomChatScreenRouteProp} from '../navigation';
+import {
+  RoomChatScreenNavigationProp,
+  RoomChatScreenRouteProp,
+} from '../navigation';
 import request from 'superagent';
 
 interface Options {
@@ -25,7 +28,7 @@ interface Options {
 }
 
 const RoomChat: FC<{
-  navigation: RoomChatScreenRouteProp;
+  navigation: RoomChatScreenNavigationProp;
   route: RoomChatScreenRouteProp;
 }> = ({navigation, route}) => {
   const {roomId, name, image} = route.params;
@@ -66,7 +69,7 @@ const RoomChat: FC<{
     }
   };
 
-  const options = [{label: 'Search', value: 'search'}];
+  const options: Options = [{label: 'Search', value: 'search'}];
 
   const handleOptionSelection = (option: Options) => {
     setDropdownVisible(false);
@@ -79,7 +82,7 @@ const RoomChat: FC<{
     navigation,
     isSearching,
   }: {
-    navigation: RoomChatScreenRouteProp;
+    navigation: RoomChatScreenNavigationProp;
     isSearching: boolean;
   }) => {
     return (
